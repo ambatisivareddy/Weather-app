@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffffa8;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.search-box {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-box {
+  margin-top: 15px;
+}
+
+.weather-box img {
+  width: 80px;
+}
+
+h3, p {
+  margin: 5px 0;
+}
